@@ -94,6 +94,8 @@ satisfaction and the overall effectiveness of the app**.**
 
 **User Authentication Subsystem**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/3e0aa86a-7a08-4381-b589-9a29f66d5c39)
+
+
 **Register**
 
 **Input:** Driver and Car, or Passenger details.
@@ -420,6 +422,8 @@ accordingly and notifies the passenger of the changes.
 
 **Driver’s Management System**
 
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/e537e1d2-3142-44ec-b223-626acd4936ec)
+
 **Offer Ride:**
 
 **Input:** Drivers’ location and destination location, Depart time & Number of
@@ -544,7 +548,7 @@ passenger’s profile.
 
 **Admin Management System**
 
-
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/95d1fd21-24b4-44ee-93a2-bbef1f39d660)
 
 <a name="br14"></a> 
 
@@ -710,33 +714,37 @@ emergency efficiently and minimize impact.
 
 <a name="br18"></a> 
 
-
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/33ce20b4-cfc0-4e37-bd29-8c90b72e1c07)
 
 <a name="br19"></a> 
 
-
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/68eaf999-9555-4489-83a1-b6120d760313)
 
 <a name="br20"></a> 
 
-
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/07327ea6-d895-436b-a034-47959c0e5861)
 
 <a name="br21"></a> 
 
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/37ce6d33-7977-42f6-a54a-ef91c036ce31)
 
 
 <a name="br22"></a> 
 
-
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/2397298b-abcc-476e-b6ef-45c4e877e4d9)
 
 <a name="br23"></a> 
 
-
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/3e85e478-329f-4dfb-84bf-b1a5b0d95a9f)
 
 <a name="br24"></a> 
 
-
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/05e08074-4c2c-49f8-96f0-eb1292b156bb)
 
 <a name="br25"></a> 
 
 **Database Design**
+
+![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/cef57bee-8fe8-44a3-b48f-3fedc470db46)
+
 
