@@ -4,6 +4,8 @@ DELIVERABLE 2
 
 Team Name: **Innovation Quad**
 
+![WhatsApp Image 2024-04-18 at 22 23 51_4780e5dd](https://github.com/IFMTYP2024/team13-main/assets/143531070/6c6c2474-9f1a-4218-ac29-3273273ae76d)
+
 Project Name: **Carpooling**
 
 Team Number: **13**
