@@ -682,63 +682,33 @@ emergency efficiently and minimize impact.
 
 **Activity Diagrams**
 
-**Register Activity Diagram**
-
-**Log in Activity Diagram**
-
-**Book Trip Activity Diagram**
-
-**11.**
-
-**12.**
-
-**13.**
-
-**14.**
-
-**15.**
-
-**16.**
-
-**17.**
-
-**Suspend Account Activity Diagram**
-
-**Start Trip to Destination Activity Diagram**
-
-**Pickup Passenger Activity Diagram**
-
-**Posting Trip Session Activity Diagram**
-
-
-
 <a name="br18"></a> 
-
+**Register Activity Diagram**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/33ce20b4-cfc0-4e37-bd29-8c90b72e1c07)
 
 <a name="br19"></a> 
-
+**Log in Activity Diagram**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/68eaf999-9555-4489-83a1-b6120d760313)
 
 <a name="br20"></a> 
-
+**Book Trip Activity Diagram**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/07327ea6-d895-436b-a034-47959c0e5861)
 
 <a name="br21"></a> 
-
+**Suspend Account Activity Diagram**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/37ce6d33-7977-42f6-a54a-ef91c036ce31)
 
 
 <a name="br22"></a> 
-
+**Start Trip to Destination Activity Diagram**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/2397298b-abcc-476e-b6ef-45c4e877e4d9)
 
 <a name="br23"></a> 
-
+**Pickup Passenger Activity Diagram**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/3e85e478-329f-4dfb-84bf-b1a5b0d95a9f)
 
 <a name="br24"></a> 
-
+**Posting Trip Session Activity Diagram**
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/05e08074-4c2c-49f8-96f0-eb1292b156bb)
 
 <a name="br25"></a> 
