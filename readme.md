@@ -721,7 +721,157 @@ emergency efficiently and minimize impact.
 <a name="br25"></a> 
 
 **Database Design**
-
 ![image](https://github.com/IFMTYP2024/team13-main/assets/143531070/cef57bee-8fe8-44a3-b48f-3fedc470db46)
+
+
+
+
+
+<hr>
+
+# DELIVERABLE 3
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/44c9017b-1413-4579-b4c5-a77f6334bb42)
+
+# <ins>Team Information:</ins>
+- <ins>Team Name:</ins> **Innovation Quad**
+- <ins>Project Name:</ins> **Carpooling**
+- <ins>Team Number:</ins> **13** 
+- <ins>Mentor Name:</ins> **Mr. Maluleka**
+- <ins>Sponsor Name:</ins> **Lift Search(Mr. Vutivi Shivambu)**
+- <ins>Team Members:</ins>
+  - Twarisani Nxumalo 
+  - Yingisani Honest Shivambu
+  - Tylon Takaidza
+  - Rishongile Tshabalala
+
+<ins># Updated Problem Statement, Proposed Solution & Use Cases</ins>
+
+<ins>### Problem Statement:</ins>
+
+LiftSearch is currently struggling with inconsistent usage leading to lost revenue,as once users are used to each other they often arrange rides directly, bypassing the platform, Additionally, the accuracy of matching pickups and drop-offs is sometimes inaccurate. These issues, coupled with LiftSearch only dealing in long-distance rides (usually cross-province), reduces overall engagement; whereas South Africa is having a growing demand for affordable, reliable transportation for short regular trips.
+
+<ins>### Proposed Solutions:</ins>
+
+To address these challenges, we will implement the following solutions:
+
+<ins>### Short Regular Rides:
+
+Implement a new feature that supports short, routine travel options, such as minibus taxis for school learners and worker transportation, increasing usage frequency. Unlike existing services like Uber, Bolt, and other carpooling options which primarily cater to on-demand individual rides, the proposed solution introduces structured, routine travel options, catering to a niche market with consistent needs, rather than purely on-demand services.
+
+The system will be implemented as follows:
+
+**Driver Route Posting:** Allow drivers to post their starting point, destination and time. They can mention their workplace/any specific destination such as a mall etc, or just the city name if they are open to picking up anyone within the city. 
+
+**Rider Matching:** Match riders with drivers based on distance. Prioritize the nearest drivers. If an exact match isn't found, match passengers with drivers heading in the same direction, provided the passenger is within a specified radius of the driver's route.
+
+**Driver Availability Management:** Enable drivers to post their availability. If a driver won't be available on a certain date, they can update their status and their passengers will be allocated to a di􀆯erent driver.
+
+**Minibus Ride Posting:** Allow minibus drivers to post their daily trips to specific locations (e.g., schools, workplaces). Based on the route, allocate passengers who fall within a certain range.
+
+**Dynamic Passenger Allocation:** If needed, the system can reallocate passengers to a different driver on a given day, maintaining flexibility and ensuring passengers reach their destination.
+
+<ins>### Subscription-Based Discounts:</ins>
+
+Encourage consistent app usage through a subscription model with tiered discounts, promoting loyalty. This rewards consistent users with progressively larger discounts, creating a more robust loyalty incentive and appealing to those who need regular transportation, with the added convenience of not always needing travel cash.
+
+The system will be implemented as follows:
+
+**Weekly subscription:** 5% off ride cost
+
+**Monthly subscription:** 10% off ride cost
+
+**Yearly Subscription:** 12% off ride cost
+
+
+<ins>### Enhanced Matching Algorithm:
+
+To improve the accuracy of matching pickups and drop-offs, our implementation will be as follows:
+
+**Google Maps** offers a **Distance Matrix API** that calculates travel distance and time between multiple origins and destinations, including various travel modes (driving, walking, cycling, etc.), We will use this API to calculate the driving distance between the driver's route and the passenger's destination, factoring in real-time traffic. By calculating distances between passenger destinations and driver routes, incorporating user-defined radius parameters, and considering factors like traffic conditions, our algorithm will optimize matching efficiency, ensuring that passengers' destinations fall within a specified distance from the driver's route, thereby enhancing user satisfaction and the overall e􀆯ectiveness of the app.
+
+### <ins>Use Cases:</ins>
+
+### <ins>User Authentication Subsystem</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/469930d7-ed0f-4cf2-a0dc-0a7ef4e0d0ee)
+### <ins>Passenger Management System</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/a1213a70-2bc3-4464-bae7-84e5481623a0)
+### <ins> Driver’s Management System</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/89283de7-ae76-4f1a-b021-105abc26cab1)
+
+### <ins> Admin Subsystem</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/b40a1565-0bb0-44bb-a308-d5a3dbb9546c)
+## <ins>Class Diagram</ins>
+### <ins>Interaction Sequence Diagrams:</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/791a03b2-1cd9-46ff-b6eb-6a65092a5a55)
+
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/22eef593-8d98-45ba-8dc0-550491b8b088)
+### <ins>User Aunthentication Subsystem</ins>
+
+### <ins>Login</ins>
+
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/225ebeb8-8c02-4f4a-aedc-2a7430d6e775)
+
+### <ins>Register</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/b9afdd44-5807-404d-b0f2-c8790c9fc542)
+
+### <ins>Passenger:</ins>
+### <ins>Search for Trips</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/2a2392c4-61f0-4bad-a3c1-01f4fc0a6588)
+
+### <ins>Preferred driver</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/9ecee243-159f-4d63-b1a8-83cb82c35bca)
+
+### <ins>Manage Profile</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/50874448-4812-4dfe-bace-03cc8aa99c05)
+
+### <ins>Manage Subscriptions</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/69a349f4-26f8-472d-bf47-9d8cfda8a119)
+### <ins>View Trips History</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/ee026e97-3eb8-43e9-b503-f1b21c9764ad)
+
+### <ins>Rate and Review</ins>
+
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/33cee888-68b8-42d3-aa3c-d4b20d947600)
+
+### <ins>Driver:</ins>
+### <ins>Offer A Ride
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/d6a5be3b-39b2-4edc-bd77-1b4117be2ad8)
+
+### <ins>Manage Trips
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/7458faab-c756-4d8a-addc-7aceedba78d0)
+
+### <ins>Manage Car Details
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/598a7907-5f37-4a8f-a7df-ed92a7e0339b)
+
+### <ins>Manage Profile
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/4f04f611-cd44-419e-93b6-26b2734bf016)
+
+### <ins> Rate and Review
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/e0cd4b73-a375-4925-9386-2d0409f6f5d9)
+
+### <ins>Admin
+
+### <ins>Register an Admin
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/4f193250-ad6f-4300-b19e-4ee0ac049797)
+
+### <ins>Review Complaints
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/2132a6ff-ca3e-4b7f-95d8-0dee3b16e865)
+
+### <ins>Suspend/Unsuspend Account
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/e61fd7ba-99b5-4072-8b83-c293f7f606cf)
+### <ins>Review Documents
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/761856a1-3633-4e03-bb1a-dea09a32d1ad)
+
+### <ins>Manage Payments
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/5bf2a8ec-1d02-4e8a-aad9-ffe067c24a3f)
+### <ins>Review Emergencies
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/9b2715b6-920f-46b4-a499-486b3f4d550d)
+
+### <ins> Review Trip Information</ins>
+![image](https://github.com/TwarisaniNxumalo/web-app/assets/143531070/c60a9e7e-27ec-4b37-87f7-cc1bdf322ac8)
+
+
+
+
 
 
